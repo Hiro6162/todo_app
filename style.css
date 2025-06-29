@@ -1,0 +1,72 @@
+/* GLOBAL STYLES */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 40px;
+    color: #333;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+/* FORM STYLES */
+form {
+    margin-bottom: 20px
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea,
+select {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* TASK LIST STYLES */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* TASK LINK STYLES */
+a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* COMPLETED TASK INDICATOR */
+button[type="submit"] {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* SUCCESS MESSAGE STYLES */
+p {
+    font-weight: bold;
+}
